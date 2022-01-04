@@ -8,11 +8,11 @@ export default function Greeting() {
     <View style={styles.container}>
       <TextInput
         style={{ height: 30, borderColor: 'grey', borderWidth: 1 }}
-        placeholder='Write your name...'
+        placeholder='Enter your name...'
         onChangeText={(name) => setName(name)}
       />
       <Text style={{ marginTop: 10 }}>
-        Welcome to this CI/CD course, {name}!
+        Welcome to this CI/CD course for React Native course, {name}!
       </Text>
     </View>
   );
